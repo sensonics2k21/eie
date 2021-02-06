@@ -18,6 +18,7 @@ a:focus{
 }
 a{
   text-decoration: none;
+
 }
 button:focus{
     outline: none;
@@ -57,13 +58,20 @@ button:focus{
     font-family: 'Black Ops One', cursive;
     text-align: center;
     padding-top: 3vh;
-    padding-bottom: 1vh;
+    padding-bottom: 0vh;
 }
 #home h2{
     font-family: 'Righteous', cursive;
     text-align: center;
     color: rgb(248, 207, 164);
     font-size: 2vw;
+}
+#home h4{
+  font-family: 'Black Ops One', cursive;
+  text-align: center;
+  color: rgb(255, 184, 103);
+  font-size: 1.5vw;
+  padding-bottom: 1vh;
 }
 #home h3{
     font-family: 'Monoton', cursive;
@@ -457,7 +465,7 @@ margin-top: -1px;
     font-family: 'Black Ops One', cursive;
     text-align: center;
     padding-top: 3vh;
-    padding-bottom: 1vh;
+    padding-bottom: 0vh;
 }
 #home h2{
     font-family: 'Righteous', cursive;
@@ -841,7 +849,13 @@ margin-top: -1px;
 }
 }
 @media (max-width: 575.98px) { 
-
+#home h4{
+  font-family: 'Black Ops One', cursive;
+  text-align: center;
+  color: rgb(255, 184, 103);
+  font-size: 3vw;
+  padding-bottom: 1vh;
+}
     #home{
         min-height: 70vh;
     }
@@ -851,7 +865,7 @@ margin-top: -1px;
         font-family: 'Black Ops One', cursive;
         text-align: center;
         padding-top: 2rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
     } 
     #home h2{
         font-size: 0.8rem;
