@@ -7,29 +7,37 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Balsamiq+Sans&family=Black+Ops+One&family=Itim&family=Monoton&family=PT+Mono&family=Righteous&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
-<script src="https://kit.fontawesome.com/884efbc1ce.js" crossorigin="anonymous"></script>
+
 </head>
+
+    
 <body>
+    <!-- <div id="loading"><audio id="audioID" loop> <source src="music.mp3" type="audio/mp3"></audio></div> -->
     <section id="home">
         <div class="box">
-        <h1>KONGU ENGINEERING COLLEGE</h1>
-        <h2>DEPARTMENT OF</h2>
-        <h2>ELECTRONICS AND INSTRUMENTATION ENGINEERING</h2><br>
+            <div id="homebx">
+        <h1 class="animate__animated animate__fadeIn animate__slow ">KONGU ENGINEERING COLLEGE</h1>
+        <h2 class="animate__animated animate__fadeIn animate__slow ">DEPARTMENT OF</h2>
+        <h2 class="animate__animated animate__fadeIn animate__slow ">ELECTRONICS AND INSTRUMENTATION ENGINEERING</h2><br>
 
 
         <center>
-<img src="assets/img/Title-01.png" id="sensonics" alt="" srcset="">
+<img src="assets/img/Title-01.png" id="sensonics" alt="" srcset="" class="animate__animated animate__fadeIn animate__slower ">
 
 </center>
 <center>
-<p>PRESENTED BY</p>
-<h3>EIE ASSOCIATION</h3>
+<p class="animate__animated animate__fadeInUp animate__slower ">PRESENTED BY</p>
+<h3 class="animate__animated animate__fadeInUp animate__slower ">EIE ASSOCIATION</h3>
 </center>
 
 <div class="row">
@@ -42,30 +50,34 @@
     </div>
 </div>
 </div>
+</div>
     </section>
     <section id="about">
         
         <div class="container">
 <div class="title">
-<h1>ABOUT THE EVENT</h1>
+<h1 data-aos="flip-left" data-aos-duration="2000">ABOUT THE EVENT</h1>
+
 </div>
 
-<div class="row">
+<div class="row" class="slider owl-carousel" data-aos="fade-up"
+data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
     <div class="col-lg-5 order-lg-2">
         <center>
-            <img src="assets/img/poster.png" id="poster"alt="" srcset="">
+            <img src="assets/img/poster.png" id="poster"alt="" srcset="" >
         <!-- <iframe id="video" src="https://www.youtube.com/embed/vf0xwUbZqeo?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loop="true" autoplay="true" allowfullscreen></iframe> -->
         </center> 
     </div>
     <div class="col-lg-7 order-lg-1">
-        <h3>A NATIONAL LEVEL TECHNICAL SYMPOSIUM</h3>
+        <br>
+        <h3>A NATIONAL LEVEL TECHNICAL SYMPOSIUM <br>AT FEB 26</h3>
 <br>
 <p>
     The event is a well organized platform for the students around the country to expose and express their talents and gain the respect they deserve.  This grand event is organized by the Electronics and Instrumentation Engineering (EIE) Association of Kongu Engineering College, Perundurai, Erode, Tamil Nadu.
 </p>
 <center>
     <br>
-<a type="button" id="reg" class="btn reg">Click Here For Registration</a>
+<a type="button" href="#end" id="reg" class="btn reg">Contact Us</a>
 </center>
     </div>
 
@@ -86,23 +98,25 @@
     </section>
     <section id="events">
         <center>
-        <h6>TECHINCAL EVENTS</h6>
+        <h6 data-aos="flip-right" data-aos-duration="2000">TECHINCAL EVENTS</h6>
         </center>
-        <div class="slider owl-carousel">
+        <div class="slider owl-carousel" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        
+     data-aos-duration="2000"
+        >
       <div class="card" id="c1">
         <center>
             <div class="boxs">
-        
+                <img src="assets/img/16889.png" id="frm" alt="" srcset="">
 <!-- <img src="assets/img/paperimage.jpg" alt=""> -->
 <div class="content" >
     
     <img src="assets/img/paperimage.jpg" alt="">
           <div class="title">
-PAPER PRESENTATION</div>
+PAPER MART</div>
 <p>
-In the final event ,students getting prizes will be awrded cash price 
-First price : Rs 1000 
-Second price : Rs 500</p>
+Stage is ready for you to present your idea. First price : Rs 1000  Second price : Rs 500</p>
 
 
 </div>
@@ -114,14 +128,13 @@ Second price : Rs 500</p>
 <img src="assets/img/project.jpg" alt=""></div> -->
 <center>
     <div class="boxs">
+        <img src="assets/img/16889.png" id="frm" alt="" srcset="">
 <div class="content" >
     <img src="assets/img/project.jpg" alt="">
           <div class="title">
-PROJECT PRESENTATION</div>
+            INNOVATA</div>
 <p>
-In the final event ,students getting prizes will be awrded cash price 
-First price : Rs 1000 
-Second price : Rs 500</p>
+    Stage is ready for you to show case your project.  First price : Rs 1000  Second price : Rs 500</p>
 
 </div>
 </div>
@@ -133,15 +146,16 @@ Second price : Rs 500</p>
 <img src="assets/img/project.jpg" alt=""></div> -->
 <center>
 <div class="boxs">
+    <img src="assets/img/16889.png" id="frm" alt="" srcset="">
 <div class="content" >
 <img src="assets/img/quiz2.png" alt="">
       <div class="title">
-        <br>
-        QUIZ
-        <br>
+       
+        I SPY
+        
     </div>
 <p>
-In the final event ,students getting prizes will be awrded cash price 
+Test your smartness with our funny and interesting quiz
 First price : Rs 1000 
 Second price : Rs 500</p>
 
@@ -158,7 +172,7 @@ Second price : Rs 500</p>
 
 <center>
     <br>
-    <a href="Techevents.html" class="btn" id="kn" tabindex="-1" role="button" aria-disabled="true">Know More</a>
+    <a dclass="slider owl-carousel" data-aos="fade-up"  data-aos-anchor-placement="center-bottom" data-aos-duration="2000" href="Techevents.html" class="btn" id="kn" tabindex="-1" role="button" aria-disabled="true">Know More</a>
 
 </center>
 <img src="assets/img/backpic1.png" id="bgdd" alt="" srcset="">
@@ -191,24 +205,25 @@ Second price : Rs 500</p>
     </section>
     <section id="events1">
         <center>
-        <h6>NON-TECHINCAL EVENTS</h6>
+        <h6 data-aos="flip-right" data-aos-duration="2000" >NON-TECHINCAL EVENTS</h6>
         </center>
-        <div class="slider owl-carousel">
+        <div class="slider owl-carousel" class="slider owl-carousel" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000" >
       <div class="card" id="c1">
         <center>
+            
             <div class="boxs">
-        
+                <img src="assets/img/16889.png" id="frm" alt="" srcset="">
 <!-- <img src="assets/img/paperimage.jpg" alt=""> -->
 <div class="content" >
     
-    <img src="assets/img/paperimage.jpg" alt="">
-          <div class="title">
-              <br>
-MUSIC MAINA
-<br>
+    <img src="assets/img/new-music.jpg" alt="">
+          <div class="title" >
+            
+MUSIC MANIA
+
 </div>
 <p>
-In the final event ,students getting prizes will be awrded cash price 
+    Music Mania - Let your music enrich the soul
 First price : Rs 1000 
 Second price : Rs 500</p>
 
@@ -223,16 +238,20 @@ Second price : Rs 500</p>
 <img src="assets/img/project.jpg" alt=""></div> -->
 <center>
     <div class="boxs">
+        <img src="assets/img/16889.png" id="frm" alt="" srcset="">
 <div class="content" >
-    <img src="assets/img/project.jpg" alt="">
+   
+    <img src="assets/img/braina.jpg" alt="">
           <div class="title">
 BRAIN CRUNCHER</div>
 <p>
-In the final event ,students getting prizes will be awrded cash price 
+   Sometimes the quiet observer will see the most
 First price : Rs 1000 
-Second price : Rs 500</p>
+Second price : Rs 500
 
-</div>
+</p>
+
+
 </div>
 
 </center>
@@ -242,17 +261,16 @@ Second price : Rs 500</p>
 <img src="assets/img/project.jpg" alt=""></div> -->
 <center>
 <div class="boxs">
+    <img src="assets/img/16889.png" id="frm" alt="" srcset="">
 <div class="content" >
-<img src="assets/img/project.jpg" alt="">
+<img src="assets/img/photoa.png" alt="">
       <div class="title">
-        <br>
+        
        PIXLA
-        <br>
+       
     </div>
 <p>
-In the final event ,students getting prizes will be awrded cash price 
-First price : Rs 1000 
-Second price : Rs 500</p>
+    Pixla-Capture the moments that captivate your heart First price : Rs 1000  Second price : Rs 500<br><br></p>
 
 </div>
 </div>
@@ -265,7 +283,7 @@ Second price : Rs 500</p>
 </div>
 <center>
     <br>
-    <a href="nontechevents.html" class="btn" id="kn" tabindex="-1" role="button" aria-disabled="true">Know More</a>
+    <a class="slider owl-carousel" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000" href="nontechevents.html" class="btn" id="kn" tabindex="-1" role="button" aria-disabled="true">Know More</a>
 
 </center>
 <img src="assets/img/backpic.png" id="bgdd" alt="" srcset="">
@@ -304,7 +322,11 @@ Second price : Rs 500</p>
         <h1>CONTACT US</h1>
         </div>
         <br> <br><center>
-        <div id="go1"><div class="endbox">
+        <div id="go1" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <img src="assets/img/body.png" id="go1ig" alt="" srcset="">
+                <div class="endbox" >
           
         <h4>FOR MORE INFO</h4>
          
@@ -316,13 +338,16 @@ Second price : Rs 500</p>
                 <p>9894585961</p>
                 <a href="https://www.instagram.com/eiekec98/"><i class="fab fa-instagram"></i></a>
            <a href="https://www.facebook.com/sanjai.sakthivel/"> <i class="fab fa-facebook"></i></a>
-            <a href="https://t.me/sensonics2k21"><i class="fab fa-telegram"></i></a><br><br>
+            <a href="https://twitter.com/eiekec98?s=20"><i class="fab fa-twitter"></i></a><br><br>
         </div></div>
     </center>
-    <div class="row" id="go">
+    <div class="row" id="go" >
       
-        <div class="col-lg-3">
-            <div class="endbox">
+        <div class="col-lg-3" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+            <img src="assets/img/body.png" width="100%" height="100%" alt="" srcset="">
+            <div class="endbox" >
                 <br>
                 <img src="assets/img/suren.png"  id="endlink" alt="" srcset="">
                 <br>
@@ -331,8 +356,11 @@ Second price : Rs 500</p>
             </div>
         </div>
       
-        <div class="col-lg-3">
-            <div class="endbox">
+        <div class="col-lg-3" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+            <img src="assets/img/body.png" width="100%" height="100%" alt="" srcset="">
+            <div class="endbox" >
                 <br>
                 <img src="assets/img/gopi.png"  id="endlink" alt="" srcset="">
                 <br>
@@ -340,8 +368,11 @@ Second price : Rs 500</p>
                 <p>8248286534</p>
             </div>
         </div>
-        <div class="col-lg-3">
-            <div class="endbox">
+        <div class="col-lg-3" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+            <img src="assets/img/body.png" width="100%" height="100%" alt="" srcset="">
+            <div class="endbox" >
                 <br>
                 <img src="assets/img/avatar.png"  id="endlink" alt="" srcset="">
                 <br>
@@ -350,15 +381,18 @@ Second price : Rs 500</p>
                 
             </div>
         </div>
-        <div class="col-lg-3">
-            <div class="endbox">
+        <div class="col-lg-3" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+            <img src="assets/img/body.png" width="100%" height="100%" alt="" srcset="">
+            <div class="endbox" >
             <!-- <img src="assets/img/body.png"  id="endlink" alt="" srcset=""> -->
             <br>
             <h4>SOCIAL MEDIA</h4>  
             <br>
             <a href="https://www.instagram.com/eiekec98/"><i class="fab fa-instagram"></i></a>
-           <a href="https://www.facebook.com/sanjai.sakthivel/"> <i class="fab fa-facebook"></i></a>
-            <a href="https://t.me/sensonics2k21"><i class="fab fa-telegram"></i></a><br><br>
+           <a href="https://www.facebook.com/eiekec98"> <i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/eiekec98?s=20"><i class="fab fa-twitter"></i></a><br><br>
             <h6>MADE BY THE HANDS OF</h6>
             <br>
             <br>
@@ -369,6 +403,30 @@ Second price : Rs 500</p>
     </div>
         <img src="assets/img/end.png"  id="bgd" alt="" srcset="">
     </section>
+    <script>
+        document.getElementById("homebx").style.display="none";
+     setTimeout(() => { document.getElementById("homebx").style.display="block"; }, 1000);
+        // var preloader = document.getElementById("loading");
+        // var audio = new Audio('music.mp3');
+      
+        // audio.play();
+        // var x = 0;
+    
+        // var delayInMilliseconds = 13000; 
+
+// setTimeout(function() {
+  //your code to be executed after 1 second
+//   preloader.style.display = 'none';
+//           audio.pause();
+// }, delayInMilliseconds);
+        // function myFunction(){
+        //   preloader.style.display = 'none';
+        //   audio.pause();
+        // };
+      </script>
+      <script>
+        AOS.init();
+      </script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
