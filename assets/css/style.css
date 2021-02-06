@@ -190,7 +190,7 @@ padding-top: 5vh;
         background: url()no-repeat;
       
         padding: 45px;
-        margin-top: -110%;
+        margin-top: -108%;
         font-family: 'PT Mono', monospace;
     }
     #end .endbox{
@@ -198,9 +198,12 @@ padding-top: 5vh;
        
 
     }
+  #end #soc h4{
+   padding-top: 5px ;
+  }
     #end i{
         font-size: 3vw;
-        margin: 0.2vw;
+        margin: 0.5vw;
         text-decoration: none;
         color: rgb(32, 32, 32);
     }
@@ -212,7 +215,7 @@ padding-top: 5vh;
 
       #events{
         display: grid;
-        min-height: 80vh;
+        min-height: 100vh;
         width: 100%;
         place-items: center;
         text-align: center;
@@ -257,7 +260,7 @@ font-family: 'Itim', cursive;
     }
       #events1{
         display: grid;
-        min-height: 80vh;
+        min-height: 100vh;
         width: 100%;
         place-items: center;
         text-align: center;
@@ -313,6 +316,7 @@ font-family: 'Itim', cursive;
           
           width: 100% ;
           padding: 5px;
+          height: 100%;
           
       }
       .slider .card #frm{
@@ -596,7 +600,7 @@ padding-top: 5vh;
 
     }
     #end i{
-        font-size: 3vw;
+        font-size: 2.5vw;
         margin: 0.2vw;
         text-decoration: none;
         color: rgb(32, 32, 32);
