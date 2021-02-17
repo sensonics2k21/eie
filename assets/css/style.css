@@ -453,6 +453,13 @@ margin-top: -1px;
   color: white;
   box-shadow: 0px 0px 10px 4px #259434a6;
 }
+.alert{
+  background-color: rgba(13, 255, 174, 0.904);
+  font-size: 120%;
+  color: rgb(32, 31, 31);
+  width: 40%;
+
+}
 @media (max-width: 767.98px) { 
   #home{
     background: url('../img/20123112.jpg')no-repeat center;
@@ -1217,4 +1224,11 @@ margin-top: -1px;
         color: white;
         box-shadow: 0px 0px 10px 4px #259434a6;
       }
+      .alert{
+        background-color: rgba(13, 255, 174, 0.904);
+        font-size: 100%;
+        color: rgb(32, 31, 31);
+        width: 100%;
+
+    }
  }
